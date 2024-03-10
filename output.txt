@@ -1,0 +1,169 @@
+Iteration 0
+2024-03-10 16:43:33.806913: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+Iteration: 1
+Best-Perf:0.7862080750533198
+Iteration 1
+Iteration: 2
+Best-Perf:0.7862080750533198
+Iteration 2
+Iteration: 3
+Best-Perf:0.7862080750533198
+Iteration 3
+Iteration: 4
+Best-Perf:0.7863885640581969
+Iteration 4
+Iteration: 5
+Best-Perf:0.7863885640581969
+Iteration 5
+Iteration: 6
+Best-Perf:0.7863885640581969
+Iteration 6
+Iteration: 7
+Best-Perf:0.7863885640581969
+Iteration 7
+Iteration: 8
+Best-Perf:0.7863885640581969
+Iteration 8
+Iteration: 9
+Best-Perf:0.7863885640581969
+Iteration 9
+Iteration: 10
+Best-Perf:0.7863885640581969
+Iteration 10
+Iteration: 11
+Best-Perf:0.7863885640581969
+Iteration 11
+Iteration: 12
+Best-Perf:0.7863885640581969
+Iteration 12
+Iteration: 13
+Best-Perf:0.7863885640581969
+Iteration 13
+Iteration: 14
+Best-Perf:0.7863885640581969
+Iteration 14
+Iteration: 15
+Best-Perf:0.7863885640581969
+Iteration 15
+Iteration: 16
+Best-Perf:0.7863885640581969
+Iteration 16
+Iteration: 17
+Best-Perf:0.7863885640581969
+Iteration 17
+Iteration: 18
+Best-Perf:0.7863885640581969
+Iteration 18
+Iteration: 19
+Best-Perf:0.7863885640581969
+Iteration 19
+Iteration: 20
+Best-Perf:0.7863885640581969
+Iteration 20
+Iteration: 21
+Best-Perf:0.7863885640581969
+Iteration 21
+Iteration: 22
+Best-Perf:0.7863885640581969
+Iteration 22
+Iteration: 23
+Best-Perf:0.7863885640581969
+Iteration 23
+Iteration: 24
+Best-Perf:0.7863885640581969
+Iteration 24
+Iteration: 25
+Best-Perf:0.7863885640581969
+Iteration 25
+Iteration: 26
+Best-Perf:0.7863885640581969
+Iteration 26
+Iteration: 27
+Best-Perf:0.7863885640581969
+Iteration 27
+Iteration: 28
+Best-Perf:0.7863885640581969
+Iteration 28
+Iteration: 29
+Best-Perf:0.7863885640581969
+Iteration 29
+Iteration: 30
+Best-Perf:0.7863885640581969
+Iteration 30
+Iteration: 31
+Best-Perf:0.7863885640581969
+Iteration 31
+Iteration: 32
+Best-Perf:0.7863885640581969
+Iteration 32
+Iteration: 33
+Best-Perf:0.7863885640581969
+Iteration 33
+Iteration: 34
+Best-Perf:0.7863885640581969
+Iteration 34
+Iteration: 35
+Best-Perf:0.7863885640581969
+Iteration 35
+Iteration: 36
+Best-Perf:0.7863885640581969
+Iteration 36
+Iteration: 37
+Best-Perf:0.7863885640581969
+Iteration 37
+Iteration: 38
+Best-Perf:0.7863885640581969
+Iteration 38
+Iteration: 39
+Best-Perf:0.7863885640581969
+Iteration 39
+Iteration: 40
+Best-Perf:0.7863885640581969
+Iteration 40
+Iteration: 41
+Best-Perf:0.7863885640581969
+Iteration 41
+Iteration: 42
+Best-Perf:0.7863885640581969
+Iteration 42
+Iteration: 43
+Best-Perf:0.7863885640581969
+Iteration 43
+Iteration: 44
+Best-Perf:0.7863885640581969
+Iteration 44
+Iteration: 45
+Best-Perf:0.7863885640581969
+Iteration 45
+Iteration: 46
+Best-Perf:0.7863885640581969
+Iteration 46
+Iteration: 47
+Best-Perf:0.7863885640581969
+Iteration 47
+Iteration: 48
+Best-Perf:0.7863885640581969
+Iteration 48
+Iteration: 49
+Best-Perf:0.8592155556664733
+Iteration 49
+Iteration: 50
+Best-Perf:0.8592155556664733
+    AUC-Original  AUC-Synthetic  APR-Original  APR-Synthetic
+0         0.9409         0.8475        0.9583         0.8848
+1         0.8920         0.7667        0.9201         0.8218
+2         0.7953         0.8564        0.8405         0.8922
+3         0.5007         0.5007        0.5798         0.5798
+4         0.9501         0.8362        0.9649         0.8745
+5         0.8746         0.7710        0.8969         0.8136
+6         0.9512         0.8362        0.9657         0.8757
+7         0.9025         0.8265        0.9261         0.8663
+8         0.8644         0.6791        0.8823         0.7148
+9         0.8947         0.8452        0.9172         0.8875
+10        0.9059         0.7395        0.9293         0.7780
+Averages:
+AUC-Original     0.861118
+AUC-Synthetic    0.773182
+APR-Original     0.889191
+APR-Synthetic    0.817182
+dtype: float64
