@@ -20,7 +20,7 @@ def data_generator(no, dim, noise_rate):
     # cov_matrix = np.random.uniform(0, 1, [dim, dim])
     # cov_matrix = 0.5 * (cov_matrix + np.transpose(cov_matrix))
     df = pd.read_csv('diabetes.csv')
- 
+
     # Generate train/test features
     # x_train = np.random.multivariate_normal(
     #     np.zeros(
@@ -63,8 +63,11 @@ def data_generator(no, dim, noise_rate):
     # y_test = np.reshape(1 * (y_test), [-1, 1])
 
     # get the locations
-    X = df.iloc[:, :-1]
-    y = df.iloc[:, -1]
+    features = [
+        'Pregnancies','Glucose','BloodPressure','SkinThickness','Insulin','BMI','DiabetesPedigreeFunction','Age'
+    ]
+    X = df.iloc[:, features]
+    y = df.iloc[:, ['Outcome']]
     x_train, x_test, y_train, y_test = train_test_split(
         X, y, test_size=0.05, random_state=0
     )
