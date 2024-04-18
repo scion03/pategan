@@ -41,10 +41,10 @@ def pategan_main (args):
       train_data, test_data = data_generator(args.data_no, args.data_dim, 
                                          args.noise_rate)
       data_dim = args.data_dim
-  elif args.dataset == 'credit':
+  elif args.dataset == 'diabetes':
       # Insert relevant dataset here, and scale between 0 and 1.
-      data = pd.read_csv('creditcard.csv').to_numpy()
-      data = MinMaxScaler().fit_transform(data)
+      data = pd.read_csv('diabetes.csv').to_numpy()
+      data = MinMaxScaler().fit_transform(data) 
       train_ratio = 0.5
       train = np.random.rand(data.shape[0])<train_ratio 
       train_data, test_data = data[train], data[~train]
