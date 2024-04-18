@@ -66,8 +66,8 @@ def data_generator(no, dim, noise_rate):
     features = [
         'Pregnancies','Glucose','BloodPressure','SkinThickness','Insulin','BMI','DiabetesPedigreeFunction','Age'
     ]
-    X = df.iloc[:, features]
-    y = df.iloc[:, ['Outcome']]
+    X = df.loc[:, features]
+    y = df.loc[:, ['Outcome']]
     x_train, x_test, y_train, y_test = train_test_split(
         X, y, test_size=0.05, random_state=0
     )
