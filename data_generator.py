@@ -62,7 +62,6 @@ def data_generator(no, dim, noise_rate):
     # y_test = np.matmul(x_test, W) + b + np.random.normal(0, noise_rate, no)
     # y_test = np.reshape(1 * (y_test), [-1, 1])
 
-    df = pd.read_csv('Real estate.csv')
     # get the locations
     X = df.iloc[:, :-1]
     y = df.iloc[:, -1]
