@@ -1,15 +1,5 @@
 # Codebase for "PATE-GAN: Generating Synthetic Data with Differential Privacy Guarantees"
 
-Authors: James Jordon, Jinsung Yoon, Mihaela van der Schaar
-
-Reference: James Jordon, Jinsung Yoon, Mihaela van der Schaar, 
-"PATE-GAN: Generating Synthetic Data with Differential Privacy Guarantees," 
-International Conference on Learning Representations (ICLR), 2019.
- 
-Paper Link: https://openreview.net/forum?id=S1zk9iRqF7
-
-Contact: jsyoon0823@gmail.com
-
 This directory contains implementations of PATEGAN framework for generating synthetic data.
 
 To run the pipeline for training and evaluation on PATEGAN framwork, simply run 

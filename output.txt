@@ -1,7 +1,7 @@
 Iteration 0
 2024-03-10 16:43:33.806913: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
 Iteration: 1
-Best-Perf:0.7862080750533198
+Best-Perf:0.7862080750533198 
 Iteration 1
 Iteration: 2
 Best-Perf:0.7862080750533198
@@ -19,7 +19,7 @@ Iteration: 6
 Best-Perf:0.7863885640581969
 Iteration 6
 Iteration: 7
-Best-Perf:0.7863885640581969
+Best-Perf:0.7863885640581969 
 Iteration 7
 Iteration: 8
 Best-Perf:0.7863885640581969
@@ -148,7 +148,7 @@ Iteration: 49
 Best-Perf:0.8592155556664733
 Iteration 49
 Iteration: 50
-Best-Perf:0.8592155556664733
+Best-Perf:0.8592155556664733 
     AUC-Original  AUC-Synthetic  APR-Original  APR-Synthetic
 0         0.9409         0.8475        0.9583         0.8848
 1         0.8920         0.7667        0.9201         0.8218
@@ -163,7 +163,7 @@ Best-Perf:0.8592155556664733
 10        0.9059         0.7395        0.9293         0.7780
 Averages:
 AUC-Original     0.861118
-AUC-Synthetic    0.773182
-APR-Original     0.889191
+AUC-Synthetic    0.773182 
+APR-Original     0.889191 
 APR-Synthetic    0.817182
-dtype: float64
+dtype: float64 

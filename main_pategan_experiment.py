@@ -108,7 +108,8 @@ def pategan_main (args):
   print(results)
   print('Averages:')
   print(results.mean(axis=0))
-  
+  print(synth_data)
+  print(synth_train_data)
   return results, train_data, synth_train_data
 
   
@@ -150,7 +151,7 @@ if __name__ == '__main__':
   parser.add_argument(
       '--batch_size',
       help='the number of batch size for training student and generator',
-      default=64,
+      default=64, 
       type=int)
   parser.add_argument(
       '--k',
